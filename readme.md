@@ -22,7 +22,7 @@ You can use both curl or POSTMAN if you prefer.
 
 Call :
 
-[POST] : http://localhost:3000/setup : to create your first user { username: 'admin', password: 'azerty' }
-[POST] : http://localhost:3000/login : with your credentials in your raw body JSON format (use double quote)
-[GET]  : http://localhost:3000/private : with your token in the headers (x-access-token key)
-[POST] : http://localhost:3000/logout : to disconnect and destroy your token
+* [POST] : http://localhost:3000/setup : to create your first user { username: 'admin', password: 'azerty' }
+* [POST] : http://localhost:3000/login : with your credentials in your raw body JSON format (use double quote)
+* [GET]  : http://localhost:3000/private : with your token in the headers (x-access-token key)
+* [POST] : http://localhost:3000/logout : to disconnect and destroy your token
