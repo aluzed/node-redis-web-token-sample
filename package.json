@@ -1,0 +1,25 @@
+{
+  "name": "node-redis-web-token-sample",
+  "version": "1.0.0",
+  "description": "Web Token authentication with redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "token",
+    "web token",
+    "redis token"
+  ],
+  "author": "Alexandre PENOMBRE <aluzed@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.7",
+    "redis": "^2.8.0",
+    "redis-web-token": "^1.0.0"
+  }
+}
